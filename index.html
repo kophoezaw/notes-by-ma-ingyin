@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="my">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Kāyānupassanāniddeso — ကာယာနုပဿနာနိဒ္ဒေသ</title>
+<style>
+:root{
+  --bg:#f5f2e9; --paper:#fffdf7; --ink:#26251f; --muted:#777064;
+  --pali:#7a3e18; --en:#315b75; --my:#2d5b43; --line:#e7dfd0;
+  --accent:#b78337; --shadow:0 8px 28px rgba(55,42,20,.08);
+}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:"Noto Sans Myanmar","Myanmar Text",system-ui,sans-serif;line-height:1.9}
+header{background:linear-gradient(135deg,#46351f,#76532e);color:#fff;padding:34px 18px 28px;text-align:center}
+header .eyebrow{letter-spacing:.12em;text-transform:uppercase;font-size:.82rem;color:#f0d9b3}
+h1{font-family:Georgia,"Times New Roman",serif;font-size:clamp(1.65rem,4vw,2.6rem);line-height:1.3;margin:8px 0}
+header .subtitle{font-size:1.05rem;color:#f7e9d4;margin:8px 0 0}
+.toolbar{display:flex;justify-content:center;gap:8px;flex-wrap:wrap;padding:14px;background:#eadfcd;border-bottom:1px solid #d8c8ad}
+button{border:1px solid #c5ad8b;background:#fffaf0;color:#48351f;border-radius:24px;padding:7px 14px;font:inherit;font-size:.9rem;cursor:pointer}
+button:hover{background:#f5e6ca}
+main{max-width:1000px;margin:26px auto;padding:0 16px 60px}
+.note{background:#fff4dc;border-left:4px solid var(--accent);padding:12px 16px;border-radius:6px;margin:0 0 22px;color:#59472f}
+.section{background:var(--paper);border:1px solid var(--line);border-radius:12px;box-shadow:var(--shadow);padding:clamp(16px,3vw,28px);margin:20px 0}
+.section-title{font-size:1.28rem;color:#6b451e;border-bottom:1px solid var(--line);padding-bottom:8px;margin:0 0 18px}
+.verse{padding:14px 0;border-bottom:1px dashed var(--line)}
+.verse:last-child{border-bottom:0}
+.pali{font-family:"Noto Serif","Noto Sans Myanmar",serif;color:var(--pali);font-weight:600;font-size:var(--pali-size,1.12rem);line-height:1.85}
+.en{color:var(--en);font-family:Georgia,"Times New Roman",serif;font-size:var(--en-size,1.04rem);line-height:1.75;margin-top:5px}
+.my{color:var(--my);font-size:var(--my-size,1rem);line-height:2;margin-top:7px}
+.label{font-size:.72rem;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);font-weight:700;margin-bottom:2px}
+.list{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:10px;margin:12px 0}
+.item{background:#faf5eb;border:1px solid #eee2cf;border-radius:8px;padding:10px 13px}
+.item .pali{font-size:1rem}
+.item .en{font-size:.94rem;margin-top:2px}
+.item .my{font-size:.94rem;margin-top:3px}
+.small{font-size:.9rem;color:var(--muted)}
+footer{text-align:center;color:var(--muted);padding:22px;font-size:.85rem}
+body.dark{--bg:#1d201e;--paper:#272b28;--ink:#e9e5da;--muted:#aaa99e;--pali:#e8b987;--en:#a9cfe5;--my:#b2d6b8;--line:#414640;--shadow:0 8px 28px rgba(0,0,0,.18)}
+body.dark .toolbar{background:#30332f;border-color:#414640}
+body.dark button{background:#292d29;color:#e9e5da;border-color:#55594f}
+body.dark .note{background:#3a3428;color:#ead7b3}
+body.dark .item{background:#30342f;border-color:#454940}
+@media print{
+  body{background:white;color:black}
+  header{background:white;color:black;padding:12px}
+  header .eyebrow,header .subtitle{color:#444}
+  .toolbar{display:none}
+  main{max-width:none;margin:0;padding:0}
+  .section{box-shadow:none;border:0;padding:8px;margin:8px 0;break-inside:avoid}
+  .pali,.en,.my{color:black}
+}
+</style>
+</head>
+<body>
+
+<style>
+.site-nav{display:flex;flex-wrap:wrap;justify-content:center;gap:10px;
+padding:12px 14px;margin:0;background:#eee5d2;border-bottom:1px solid #d8c8ad;
+font-family:"Noto Sans Myanmar","Myanmar Text",sans-serif}
+.site-nav a{display:inline-block;text-decoration:none;color:#4b3a22;
+background:#fffdf8;border:1px solid #cdbb99;border-radius:22px;padding:6px 15px;font-size:14px}
+.site-nav a:hover{background:#f6e8cb}
+.site-nav a[aria-current="page"]{background:#76532e;color:white;border-color:#76532e;font-weight:bold}
+</style>
+<nav class="site-nav" aria-label="စာမျက်နှာများ">
+<a href="index.html" aria-current="page">စာမျက်နှာ ၁</a>
+<a href="page2.html" >စာမျက်နှာ ၂</a>
+<a href="page3.html" >စာမျက်နှာ ၃</a>
+</nav>
+
+<header>
+  <div class="eyebrow">Paṭisambhidāmagga · Word Analysis</div>
+  <h1>Kāyānupassanāniddeso</h1>
+  <div class="subtitle">Explanation of the Contemplation of the Body</div>
+  <div class="subtitle">ကာယာနုပဿနာနိဒ္ဒေသ — ကာယကို အဖန်ဖန် ရှုမှတ်ခြင်း၏ အဖွင့်</div>
+</header>
+
+<div class="toolbar">
+  <button onclick="changeSize(1)">စာချဲ့ ＋</button>
+  <button onclick="changeSize(-1)">စာလျှော့ −</button>
+  <button onclick="document.body.classList.toggle('dark')">🌙 ညအမှောင် / နေ့အလင်း</button>
+  <button onclick="window.print()">🖨️ Print / PDF</button>
+</div>
+
+<main>
+<div class="note">
+  <strong>ဖတ်ရှုနည်း</strong> — ပါဠိကို အညိုရောင်၊ အင်္ဂလိပ်ကို အပြာရောင်၊ မြန်မာဘာသာကို အစိမ်းရောင်ဖြင့် ခွဲပြထားပါသည်။ Browser ၏ Print ကို အသုံးပြု၍ PDF အဖြစ်လည်း သိမ်းနိုင်ပါသည်။
+</div>
+
+<section class="section">
+<h2 class="section-title">[356] — မိမိခန္ဓာကိုယ်၌ ကာယာနုပဿနာ</h2>
+<div class="verse">
+<div class="pali">Kathañ-ca bhikkhu ajjhattaṁ kāye kāyānupassī viharati?</div>
+<div class="en">And how does a monk dwell contemplating the body in the body in regard to himself?</div>
+<div class="my">အဘယ်သို့လျှင် ရဟန်းသည် မိမိခန္ဓာကိုယ်၌ (ဆံပင်စသော) ရုပ်အပေါင်းကို အဖန်ဖန် အထပ်ထပ် ရှုလျက် နေသနည်း။</div>
+</div>
+<div class="verse">
+<div class="pali">Idha bhikkhu ajjhattaṁ kāyaṁ — uddhaṁ pādatalā, adho kesamatthakā, tacapariyantaṁ, pūraṁ nānappakārassa asucino — paccavekkhati:</div>
+<div class="en">Here a monk, in regard to himself, reflects on the body: from the soles of the feet upwards, from the hair of the head down, bounded by the skin, and filled with manifold impurities:</div>
+<div class="my">ဤသာသနာတော်၌ ရဟန်းသည် မိမိခန္ဓာကိုယ်ကို အောက်ခြေဖဝါးမှ အထက်ဆံဖျားတိုင်အောင်၊ အထက်ဆံဖျားမှ အောက်ခြေဖဝါးတိုင်အောင်၊ အရေပြားဖြင့် အဆုံးအပိုင်းခြားရှိ၍ အထူးထူးအပြားပြားသော မစင်တို့ဖြင့် ပြည့်နေသည်ဟု ရှုဆင်ခြင်၏။</div>
+</div>
+<div class="verse">
+<div class="pali">“Atthi imasmiṁ kāye kesā, lomā, nakhā, dantā, taco, maṁsaṁ, nahāru, aṭṭhi, aṭṭhimiñjā, vakkaṁ, hadayaṁ, yakanaṁ, kilomakaṁ, pihakaṁ, papphāsaṁ, antaṁ, antaguṇaṁ, udariyaṁ, karīsaṁ, pittaṁ, semhaṁ, pubbo, lohitaṁ, sedo, medo, assu, vasā, kheḷo, siṅghāṇikā, lasikā, muttaṁ.”</div>
+<div class="en">“In this body there are: head-hairs, body-hairs, nails, teeth, skin, flesh, sinews, bones, bone-marrow, kidneys, heart, liver, pleura, spleen, lungs, intestines, mesentery, undigested food, excrement, bile, phlegm, pus, blood, sweat, fat, tears, grease, spit, mucus, synovial fluid, and urine.”</div>
+<div class="my">“ဤခန္ဓာကိုယ်၌ ဆံပင်၊ အမွေး၊ ခြေသည်းလက်သည်း၊ သွား၊ အရေ၊ အသား၊ အကြော၊ အရိုး၊ ရိုးတွင်းခြင်ဆီ၊ အညှို့၊ နှလုံး၊ အသည်း၊ အမြှေး၊ အဖျဉ်း၊ အဆုတ်၊ အူမ၊ အူသိမ်၊ အစာသစ်၊ အစာဟောင်း၊ သည်းခြေ၊ သလိပ်၊ ပြည်၊ သွေး၊ ချွေး၊ အဆီခဲ၊ မျက်ရည်၊ ဆီကြည်၊ တံတွေး၊ နှပ်၊ အစေး၊ ကျင်ငယ်တို့သည် ရှိကုန်၏။”</div>
+</div>
+<div class="verse">
+<div class="pali">So taṁ nimittaṁ āsevati bhāveti bahulīkaroti svāvatthitaṁ vavatthapeti.</div>
+<div class="en">He practises, develops, makes much of that meditation sign, and clearly establishes its definition.</div>
+<div class="my">ထိုရဟန်းသည် ထိုကမ္မဋ္ဌာန်းအာရုံကို မှီဝဲ၏၊ ပွားများ၏၊ အကြိမ်များစွာ ပြု၏၊ ကောင်းစွာ ပိုင်းခြားမှတ်သား၏။</div>
+</div>
+<div class="verse">
+<div class="pali">So taṁ nimittaṁ āsevitvā bhāvetvā bahulīkaritvā svāvatthitaṁ vavatthapetvā, bahiddhā kāye cittaṁ upasaṁharati.</div>
+<div class="en">Having practised, developed, made much of that sign, and clearly established its definition, he directs his mind to the body of another.</div>
+<div class="my">ထိုကမ္မဋ္ဌာန်းအာရုံကို မှီဝဲ၍ ပွားများပြီး အကြိမ်များစွာ ပြုကာ ကောင်းစွာ ပိုင်းခြားမှတ်သားပြီးနောက် သူတစ်ပါး၏ ခန္ဓာကိုယ်၌ မိမိစိတ်ကို ညွတ်စေ၏။</div>
+</div>
+</section>
+
+<section class="section">
+<h2 class="section-title">သူတစ်ပါး၏ ခန္ဓာကိုယ်၌ ကာယာနုပဿနာ</h2>
+<div class="verse">
+<div class="pali">Kathañ-ca bhikkhu bahiddhā kāye kāyānupassī viharati?</div>
+<div class="en">And how does a monk dwell contemplating the body in the body in regard to another?</div>
+<div class="my">အဘယ်သို့လျှင် ရဟန်းသည် သူတစ်ပါး၏ ခန္ဓာကိုယ်၌ (ဆံပင်စသော) ရုပ်အပေါင်းကို အဖန်ဖန် အထပ်ထပ် ရှုလျက် နေသနည်း။</div>
+</div>
+<div class="verse">
+<div class="pali">Idha bhikkhu bahiddhā kāyaṁ — uddhaṁ pādatalā, adho kesamatthakā, tacapariyantaṁ, pūraṁ nānappakārassa asucino — paccavekkhati:</div>
+<div class="en">Here a monk reflects on another’s body, from the soles of the feet upwards, from the hair of the head down, bounded by the skin, and filled with manifold impurities:</div>
+<div class="my">သူတစ်ပါး၏ ခန္ဓာကိုယ်ကို အောက်ခြေဖဝါးမှ အထက်ဆံဖျားတိုင်အောင်၊ အထက်ဆံဖျားမှ အောက်ခြေဖဝါးတိုင်အောင်၊ အရေပြားဖြင့် အဆုံးအပိုင်းခြားရှိ၍ မစင်အမျိုးမျိုးဖြင့် ပြည့်နေသည်ဟု ရှုဆင်ခြင်၏။</div>
+</div>
+<div class="verse">
+<div class="pali">“Atthissa kāye kesā, lomā, nakhā, dantā, taco, maṁsaṁ, nahāru, aṭṭhi, aṭṭhimiñjā, vakkaṁ, hadayaṁ, yakanaṁ, kilomakaṁ, pihakaṁ, papphāsaṁ, antaṁ, antaguṇaṁ, udariyaṁ, karīsaṁ, pittaṁ, semhaṁ, pubbo, lohitaṁ, sedo, medo, assu, vasā, kheḷo, siṅghāṇikā, lasikā, muttaṁ.”</div>
+<div class="en">“In his body there are head-hairs, body-hairs, nails, teeth, skin, flesh, sinews, bones, bone-marrow, kidneys, heart, liver, pleura, spleen, lungs, intestines, mesentery, undigested food, excrement, bile, phlegm, pus, blood, sweat, fat, tears, grease, spit, mucus, synovial fluid, and urine.”</div>
+<div class="my">“ထိုသူ၏ ခန္ဓာကိုယ်၌ ဆံပင်၊ အမွေး၊ ခြေသည်းလက်သည်း၊ သွား၊ အရေ၊ အသား၊ အကြော၊ အရိုး၊ ရိုးတွင်းခြင်ဆီ၊ အညှို့၊ နှလုံး၊ အသည်း၊ အမြှေး၊ အဖျဉ်း၊ အဆုတ်၊ အူမ၊ အူသိမ်၊ အစာသစ်၊ အစာဟောင်း၊ သည်းခြေ၊ သလိပ်၊ ပြည်၊ သွေး၊ ချွေး၊ အဆီခဲ၊ မျက်ရည်၊ ဆီကြည်၊ တံတွေး၊ နှပ်၊ အစေး၊ ကျင်ငယ်တို့သည် ရှိကုန်၏။”</div>
+</div>
+<div class="verse">
+<div class="pali">So taṁ nimittaṁ āsevati bhāveti bahulīkaroti svāvatthitaṁ vavatthapeti.</div>
+<div class="en">He practises, develops, makes much of that sign, and clearly establishes its definition.</div>
+<div class="my">ထိုရဟန်းသည် ထိုကမ္မဋ္ဌာန်းအာရုံကို မှီဝဲ၏၊ ပွားများ၏၊ အကြိမ်များစွာပြု၏၊ ကောင်းစွာ ပိုင်းခြားမှတ်သား၏။</div>
+</div>
+<div class="verse">
+<div class="pali">So taṁ nimittaṁ āsevitvā bhāvetvā bahulīkaritvā svāvatthitaṁ vavatthapetvā, ajjhattabahiddhā kāye cittaṁ upasaṁharati.</div>
+<div class="en">Having practised and developed the sign, he directs his mind to his own body and the body of another.</div>
+<div class="my">ထိုကမ္မဋ္ဌာန်းအာရုံကို မှီဝဲ၍ ပွားများပြီး ကောင်းစွာ ပိုင်းခြားမှတ်သားပြီးနောက် မိမိခန္ဓာကိုယ်နှင့် သူတစ်ပါး၏ ခန္ဓာကိုယ်၌ မိမိစိတ်ကို ညွတ်စေ၏။</div>
+</div>
+</section>
+
+<section class="section">
+<h2 class="section-title">မိမိနှင့် သူတစ်ပါး — အတူတကွ ရှုမှတ်ခြင်း</h2>
+<div class="verse">
+<div class="pali">Kathañ-ca bhikkhu ajjhattabahiddhā kāye kāyānupassī viharati?</div>
+<div class="en">And how does a monk dwell contemplating the body in the body both internally and externally?</div>
+<div class="my">အဘယ်သို့လျှင် ရဟန်းသည် မိမိခန္ဓာကိုယ်၊ သူတစ်ပါးခန္ဓာကိုယ်၌ အဖန်ဖန် အထပ်ထပ် ရှုလျက် နေသနည်း။</div>
+</div>
+<div class="verse">
+<div class="pali">Idha bhikkhu ajjhattabahiddhā kāyaṁ — uddhaṁ pādatalā, adho kesamatthakā, tacapariyantaṁ, pūraṁ nānappakārassa asucino — paccavekkhati:</div>
+<div class="en">Here a monk reflects on his own and another’s body, from the soles of the feet upwards, from the hair of the head down, bounded by the skin, and filled with manifold impurities:</div>
+<div class="my">ဤသာသနာတော်၌ ရဟန်းသည် မိမိခန္ဓာကိုယ်နှင့် သူတစ်ပါး၏ ခန္ဓာကိုယ်ကို အရေပြားအဆုံးအပိုင်းခြားရှိ၍ မစင်အမျိုးမျိုးဖြင့် ပြည့်နေသည်ဟု ရှုဆင်ခြင်၏။</div>
+</div>
+<div class="verse">
+<div class="pali">“Atthi kāye kesā, lomā, nakhā, dantā, taco, maṁsaṁ, nahāru, aṭṭhi, aṭṭhimiñjā, vakkaṁ, hadayaṁ, yakanaṁ, kilomakaṁ, pihakaṁ, papphāsaṁ, antaṁ, antaguṇaṁ, udariyaṁ, karīsaṁ, pittaṁ, semhaṁ, pubbo, lohitaṁ, sedo, medo, assu, vasā, kheḷo, siṅghāṇikā, lasikā, muttaṁ.”</div>
+<div class="en">“In the body there are head-hairs, body-hairs, nails, teeth, skin, flesh, sinews, bones, bone-marrow, kidneys, heart, liver, pleura, spleen, lungs, intestines, mesentery, undigested food, excrement, bile, phlegm, pus, blood, sweat, fat, tears, grease, spit, mucus, synovial fluid, and urine.”</div>
+<div class="my">“ဤခန္ဓာကိုယ်၌ ဆံပင်၊ အမွေး၊ ခြေသည်းလက်သည်း၊ သွား၊ အရေ၊ အသား၊ အကြော၊ အရိုး၊ ရိုးတွင်းခြင်ဆီ၊ အညှို့၊ နှလုံး၊ အသည်း၊ အမြှေး၊ အဖျဉ်း၊ အဆုတ်၊ အူမ၊ အူသိမ်၊ အစာသစ်၊ အစာဟောင်း၊ သည်းခြေ၊ သလိပ်၊ ပြည်၊ သွေး၊ ချွေး၊ အဆီခဲ၊ မျက်ရည်၊ ဆီကြည်၊ တံတွေး၊ နှပ်၊ အစေး၊ ကျင်ငယ်တို့သည် ရှိကုန်၏။”</div>
+</div>
+<div class="verse">
+<div class="pali">Evaṁ bhikkhu ajjhattabahiddhā kāye kāyānupassī viharati, ātāpī sampajāno satimā, vineyya loke abhijjhādomanassaṁ.</div>
+<div class="en">Thus he dwells contemplating the body internally and externally, ardent, fully aware, and mindful, having removed covetousness and grief concerning the world.</div>
+<div class="my">ဤသို့ ရဟန်းသည် မိမိခန္ဓာကိုယ်၊ သူတစ်ပါးခန္ဓာကိုယ်၌ အဖန်ဖန် အထပ်ထပ်ရှုလျက် နေ၏။ ကိလေသာကို ပူပန်စေတတ်သော လုံ့လ၊ ကောင်းစွာ သိသောပညာ၊ သတိရှိလျက် ခန္ဓာကိုယ်တည်းဟူသော လောက၌ တပ်မက်မှု 'အဘိဇ္ဈာ'၊ နှလုံးမသာယာမှု 'ဒေါမနဿ' ကို ပယ်ဖျောက်၍ နေ၏။</div>
+</div>
+</section>
+
+<section class="section">
+<h2 class="section-title">[357] — “Anupassī” — အဖန်ဖန် ရှုမှတ်လျက်</h2>
+<div class="verse">
+<div class="pali">‘Anupassī’ ti. ‘Contemplating.’ Tattha, katamā anupassanā?</div>
+<div class="en">“Contemplating.” Herein, what is contemplation?</div>
+<div class="my">“အဖန်ဖန် အထပ်ထပ် ရှုလျက်” ဟု ဆိုရာ၌ အဘယ်သည် အနုပဿနာ မည်သနည်း။</div>
+</div>
+<div class="verse">
+<div class="pali">Yā paññā pajānanā vicayo pavicayo dhammavicayo, sallakkhaṇā upalakkhaṇā paccupalakkhaṇā, paṇḍiccaṁ kosallaṁ nepuññaṁ vebhabyā cintā upaparikkhā, bhūrī medhā pariṇāyikā vipassanā sampajaññaṁ patodo, paññā paññindriyaṁ paññābalaṁ, paññāsatthaṁ paññāpāsādo paññā-āloko paññā-obhāso paññāpajjoto paññāratanaṁ, amoho dhammavicayo Sammādiṭṭhi — ayaṁ vuccati ‘anupassanā’.</div>
+<div class="en">That which is wisdom, knowing, investigation, deep investigation, investigation of phenomena, discernment, discrimination, differentiation, erudition, skill, subtlety, reflection, consideration, intelligence, insight, full awareness, examination, the faculty and strength of wisdom, the sword, palace, light, radiance, flame and treasure of wisdom, non-delusion, investigation of phenomena, and Right View: this is called “contemplation.”</div>
+<div class="my">အကြင် ပညာ၊ သိခြင်း၊ စိစစ်ခြင်း၊ နက်ရှိုင်းစွာ စိစစ်ခြင်း၊ တရားတို့ကို စိစစ်ခြင်း၊ ခွဲခြားသိမြင်ခြင်း၊ ပိုင်းခြားခြင်း၊ အသိဉာဏ်၊ ကျွမ်းကျင်မှု၊ သိမ်မွေ့မှု၊ ဆင်ခြင်ခြင်း၊ နှိုင်းချိန်ခြင်း၊ ထိုးထွင်းသိမြင်မှု၊ သမ္ပဇည၊ ပညာ၏ အစိုးတရနှင့် အင်အား၊ ပညာလက်နက်၊ ပညာပါသာဒ၊ ပညာအလင်း၊ ပညာရောင်ခြည်၊ ပညာတန်ဆောင်၊ ပညာရတနာ၊ အမောဟ၊ ဓမ္မဝိစယ၊ သမ္မာဒိဋ္ဌိတို့သည် “အနုပဿနာ” ဟု ဆိုအပ်၏။</div>
+</div>
+<div class="verse">
+<div class="pali">Imāya anupassanāya upeto hoti samupeto upāgato samupāgato, upapanno samupapanno samannāgato. Tena vuccati ‘anupassī’ ti.</div>
+<div class="en">Endowed with this contemplation, truly endowed, having attained and being possessed of it; therefore he is called “one who contemplates.”</div>
+<div class="my">ဤအနုပဿနာပညာနှင့် ပြည့်စုံ၏၊ ကောင်းစွာ ပြည့်စုံ၏၊ ရောက်ရှိ၏၊ ပိုင်ဆိုင်၏။ ထို့ကြောင့် “အဖန်ဖန် ရှုမှတ်လျက်” ဟု ဆိုအပ်၏။</div>
+</div>
+</section>
+
+<section class="section">
+<h2 class="section-title">[358] — “Viharati” — နေ၏</h2>
+<div class="verse">
+<div class="pali">‘Viharati’ ti. ‘Dwells.’ Iriyati vattati pāleti yapeti yāpeti carati viharati.</div>
+<div class="en">“Dwells.” He postures, moves, guards, persists, carries on, lives and dwells.</div>
+<div class="my">“နေ၏” ဟု ဆိုရာ၌ ဣရိယာပုတ်လေးပါးနှင့် ပြည့်စုံ၏၊ ဖြစ်၏၊ စောင့်ရှောက်၏၊ မျှတ၏၊ မျှတစေ၏၊ ဣရိယာပုတ်တစ်ပါးဖြင့် ဣရိယာပုတ်တစ်ပါးကို ဖြတ်သန်း၍ ဆောင်၏။</div>
+</div>
+<div class="verse">
+<div class="pali">Tena vuccati ‘viharati’ ti.</div>
+<div class="en">Because of this, “dwells” is said.</div>
+<div class="my">ထို့ကြောင့် “နေ၏” ဟု ဆိုအပ်၏။</div>
+</div>
+</section>
+
+<section class="section">
+<h2 class="section-title">[359] — “Ātāpī” — လုံ့လပြင်းစွာ ရှိလျက်</h2>
+<div class="verse">
+<div class="pali">‘Ātāpī’ ti. ‘Ardent.’ Tattha, katamaṁ ātappaṁ?</div>
+<div class="en">“Ardent.” Herein, what is ardour?</div>
+<div class="my">“ကိလေသာကို ပြင်းစွာ ပူပန်စေတတ်သော လုံ့လရှိလျက်” ဟု ဆိုရာ၌ အဘယ်သည် အာတပ္ပ မည်သနည်း။</div>
+</div>
+<div class="verse">
+<div class="pali">Yo cetasiko viriyārambho nikkamo parakkamo, uyyāmo vāyāmo ussāho ussoḷhī thāmo dhiti asithilaparakkamatā, anikkhittachandatā anikkhittadhuratā dhurasampaggāho, viriyaṁ viriyindriyaṁ viriyabalaṁ Sammāvāyāmo — ayaṁ vuccati ‘ātappaṁ’.</div>
+<div class="en">Whatever mental effort, exertion, great exertion, enterprise, endeavour, attempt, vigour, courage, persistence, firmness, unrelaxed effort, not abandoning wholesome desire or responsibility, taking up responsibility, effort, the faculty and strength of effort, and Right Endeavour: this is called “ardour.”</div>
+<div class="my">စိတ်၌ ဖြစ်သော လုံ့လအားထုတ်မှု၊ ပျင်းရိခြင်းမှ ထွက်မြောက်မှု၊ အဆင့်ဆင့် ကြိုးပမ်းမှု၊ အားထုတ်မှု၊ ဝီရိယ၊ ခိုင်မြဲမှု၊ မလျော့သော အားထုတ်မှု၊ ကုသိုလ်ဆန္ဒနှင့် တာဝန်ကို မစွန့်လွှတ်ခြင်း၊ တာဝန်ကို ကောင်းစွာ ထမ်းဆောင်ခြင်း၊ ဝီရိယိန္ဒြေ၊ ဝီရိယဗိုလ်၊ သမ္မာဝါယာမတို့သည် “အာတပ္ပ” ဟု ဆိုအပ်၏။</div>
+</div>
+<div class="verse">
+<div class="pali">Iminā ātappena upeto hoti samupeto upāgato samupāgato, upapanno samupapanno samannāgato. Tena vuccati ‘ātāpī’ ti.</div>
+<div class="en">Endowed with this ardour, truly endowed, having attained and being possessed of it; therefore he is called “ardent.”</div>
+<div class="my">ဤဝီရိယနှင့် ပြည့်စုံ၏၊ ကောင်းစွာ ပြည့်စုံ၏၊ ရောက်ရှိ၏၊ ပိုင်ဆိုင်၏။ ထို့ကြောင့် “လုံ့လပြင်းစွာ ရှိလျက်” ဟု ဆိုအပ်၏။</div>
+</div>
+</section>
+
+<section class="section">
+<h2 class="section-title">[360] — “Sampajāno” — ကောင်းစွာ အပြားအားဖြင့် သိလျက်</h2>
+<div class="verse">
+<div class="pali">‘Sampajāno’ ti. ‘Full awareness.’ Tattha, katamaṁ sampajaññaṁ?</div>
+<div class="en">“Full awareness.” Herein, what is full awareness?</div>
+<div class="my">“ကောင်းစွာ အပြားအားဖြင့် သိတတ်သော ပညာရှိလျက်” ဟု ဆိုရာ၌ အဘယ်သည် သမ္ပဇည မည်သနည်း။</div>
+</div>
+<div class="verse">
+<div class="pali">Yā paññā pajānanā vicayo pavicayo dhammavicayo, sallakkhaṇā upalakkhaṇā paccupalakkhaṇā, paṇḍiccaṁ kosallaṁ nepuññaṁ vebhabyā cintā upaparikkhā, bhūrī medhā pariṇāyikā vipassanā sampajaññaṁ patodo, paññā paññindriyaṁ paññābalaṁ, paññāsatthaṁ paññāpāsādo paññā-āloko paññā-obhāso paññāpajjoto paññāratanaṁ, amoho dhammavicayo Sammādiṭṭhi — idaṁ vuccati ‘sampajaññaṁ’.</div>
+<div class="en">Wisdom, knowing, investigation, discernment, discrimination, skilfulness, subtlety, reflection, consideration, insight, full awareness, the faculty and strength of wisdom, the sword, palace, light, lustre, flame and treasure of wisdom, non-delusion, investigation of phenomena and Right View: this is called “full awareness.”</div>
+<div class="my">ပညာ၊ သိခြင်း၊ စိစစ်ခြင်း၊ ပိုင်းခြားသိမြင်ခြင်း၊ ကျွမ်းကျင်မှု၊ သိမ်မွေ့မှု၊ ဆင်ခြင်ခြင်း၊ နှိုင်းချိန်ခြင်း၊ ဝိပဿနာ၊ သမ္ပဇည၊ ပညိန္ဒြေ၊ ပညာဗိုလ်၊ ပညာလက်နက်၊ ပညာပါသာဒ၊ ပညာအလင်း၊ ပညာရောင်ခြည်၊ ပညာတန်ဆောင်၊ ပညာရတနာ၊ အမောဟ၊ ဓမ္မဝိစယ၊ သမ္မာဒိဋ္ဌိတို့သည် “သမ္ပဇည” ဟု ဆိုအပ်၏။</div>
+</div>
+<div class="verse">
+<div class="pali">Iminā sampajaññena upeto hoti samupeto upāgato samupāgato, upapanno samupapanno samannāgato. Tena vuccati ‘sampajāno’ ti.</div>
+<div class="en">Endowed with this full awareness, truly endowed, having attained and being possessed of it; therefore he is called “fully aware.”</div>
+<div class="my">ဤသမ္ပဇညပညာနှင့် ပြည့်စုံ၏၊ ကောင်းစွာ ပြည့်စုံ၏၊ ရောက်ရှိ၏၊ ပိုင်ဆိုင်၏။ ထို့ကြောင့် “ကောင်းစွာ သိလျက်” ဟု ဆိုအပ်၏။</div>
+</div>
+</section>
+
+<section class="section">
+<h2 class="section-title">[361] — “Satimā” — သတိရှိလျက်</h2>
+<div class="verse">
+<div class="pali">‘Satimā’ ti. ‘Mindful.’ Tattha, katamā sati?</div>
+<div class="en">“Mindful.” Herein, what is mindfulness?</div>
+<div class="my">“အောက်မေ့တတ်သော သတိရှိလျက်” ဟု ဆိုရာ၌ အဘယ်သည် သတိ မည်သနည်း။</div>
+</div>
+<div class="verse">
+<div class="pali">Yā sati anussati paṭissati sati saraṇatā, dhāraṇatā apilāpanatā asammussanatā, sati satindriyaṁ satibalaṁ Sammāsati — ayaṁ vuccati ‘sati’.</div>
+<div class="en">Mindfulness, recollection, recall, remembrance, bearing in mind, not losing, not forgetting, the faculty and strength of mindfulness, and Right Mindfulness: this is called “mindfulness.”</div>
+<div class="my">သတိ၊ အစဉ်အောက်မေ့မှု၊ တစ်ဖန်အောက်မေ့မှု၊ မှတ်မိခြင်း၊ စိတ်၌ ဆောင်ထားခြင်း၊ မပျောက်မလွတ်စေခြင်း၊ မမေ့လျော့ခြင်း၊ သတိန္ဒြေ၊ သတိဗိုလ်၊ သမ္မာသတိတို့သည် “သတိ” ဟု ဆိုအပ်၏။</div>
+</div>
+<div class="verse">
+<div class="pali">Imāya satiyā upeto hoti samupeto upāgato samupāgato, upapanno samupapanno samannāgato. Tena vuccati ‘satimā’ ti.</div>
+<div class="en">Endowed with this mindfulness, truly endowed, having attained and being possessed of it; therefore he is called “mindful.”</div>
+<div class="my">ဤသတိနှင့် ပြည့်စုံ၏၊ ကောင်းစွာ ပြည့်စုံ၏၊ ရောက်ရှိ၏၊ ပိုင်ဆိုင်၏။ ထို့ကြောင့် “သတိရှိလျက်” ဟု ဆိုအပ်၏။</div>
+</div>
+</section>
+
+<section class="section">
+<h2 class="section-title">[362] — “Vineyya loke abhijjhādomanassaṁ”</h2>
+<div class="verse">
+<div class="pali">‘Vineyya loke abhijjhādomanassan’-ti. ‘After removing avarice and sorrow regarding the world.’ Tattha, katamo loko?</div>
+<div class="en">“After removing covetousness and grief concerning the world.” Herein, what is the world?</div>
+<div class="my">“လောက၌ တပ်မက်မှုနှင့် နှလုံးမသာယာမှုကို ပယ်ဖျောက်၍” ဟု ဆိုရာ၌ အဘယ်သည် လောက မည်သနည်း။</div>
+</div>
+<div class="verse">
+<div class="pali">Sveva kāyo loko, pañca pi upādānakkhandhā loko: ayaṁ vuccati ‘loko’.</div>
+<div class="en">This very body is the world; the five aggregates subject to clinging are also the world. This is called “the world.”</div>
+<div class="my">ဤဆံပင်စသော ရူပကာယသည်ပင် လောကမည်၏။ ဥပါဒါနက္ခန္ဓာငါးပါးတို့သည်လည်း လောကမည်၏။ ဤသဘောကို “လောက” ဟု ဆိုအပ်၏။</div>
+</div>
+<div class="verse">
+<div class="pali">Tattha, katamā abhijjhā? Yo rāgo sārāgo anunayo anurodho, nandī nandirāgo cittassa sārāgo: ayaṁ vuccati ‘abhijjhā’.</div>
+<div class="en">What is covetousness? Passion, intense passion, attachment, approval, delight, passionate delight, passion of the mind: this is called “covetousness.”</div>
+<div class="my">အဘယ်သည် အဘိဇ္ဈာ မည်သနည်း။ ရာဂ၊ သာရာဂ၊ တွယ်တာမှု၊ နှစ်သက်လိုက်လျောမှု၊ နန္ဒီ၊ နန္ဒီရာဂ၊ စိတ်၏ ပြင်းစွာတပ်မက်မှုတို့သည် “အဘိဇ္ဈာ” ဟု ဆိုအပ်၏။</div>
+</div>
+<div class="verse">
+<div class="pali">Tattha, katamaṁ domanassaṁ? Yaṁ cetasikaṁ asātaṁ cetasikaṁ dukkhaṁ, cetosamphassajaṁ asātaṁ dukkhaṁ vedayitaṁ, cetosamphassajā asātā dukkhā vedanā: idaṁ vuccati ‘domanassaṁ’.</div>
+<div class="en">What is sorrow? Mental unpleasantness, mental pain, disagreeableness and painful experience born of mental contact, painful feeling born of mental contact: this is called “sorrow.”</div>
+<div class="my">အဘယ်သည် ဒေါမနဿ မည်သနည်း။ စိတ်၌ ဖြစ်သော မသာယာခြင်း၊ စိတ်ဆင်းရဲခြင်း၊ စိတ်အတွေ့ကြောင့် ဖြစ်သော မသာယာမှုနှင့် ဆင်းရဲမှုကို ခံစားခြင်း၊ စိတ်အတွေ့ကြောင့် ဖြစ်သော ဆင်းရဲဝေဒနာတို့သည် “ဒေါမနဿ” ဟု ဆိုအပ်၏။</div>
+</div>
+<div class="verse">
+<div class="pali">Iti ayañ-ca abhijjhā idañ-ca domanassaṁ imamhi loke vinītā honti paṭivinītā, santā samitā vūpasantā atthaṅgatā abbhatthaṅgatā, appitā byappitā sositā visositā byantīkatā.</div>
+<div class="en">Thus covetousness and sorrow are removed, expelled, quieted, calmed, allayed, brought to an end, destroyed, dried up, and completely eradicated from this world.</div>
+<div class="my">ဤတပ်မက်မှု အဘိဇ္ဈာနှင့် နှလုံးမသာယာမှု ဒေါမနဿတို့ကို ဤခန္ဓာကိုယ်တည်းဟူသော လောက၌ ပယ်အပ်ကုန်၏၊ ငြိမ်သက်စေအပ်ကုန်၏၊ ငြိမ်းစေအပ်ကုန်၏၊ ချုပ်ငြိမ်းစေအပ်ကုန်၏၊ ဖျက်ဆီးအပ်ကုန်၏၊ အဆုံးတိုင်အောင် ကင်းစေအပ်ကုန်၏။</div>
+</div>
+<div class="verse">
+<div class="pali">Tena vuccati ‘vineyya loke abhijjhādomanassan’-ti.</div>
+<div class="en">Because of this, “after removing covetousness and sorrow regarding the world” is said.</div>
+<div class="my">ထို့ကြောင့် “လောက၌ တပ်မက်မှု အဘိဇ္ဈာ၊ နှလုံးမသာယာမှု ဒေါမနဿကို ပယ်ဖျောက်၍” ဟု ဆိုအပ်၏။</div>
+</div>
+</section>
+
+<footer>သုံးဘာသာဖြင့် ဖတ်ရှုလေ့လာရန် စီစဉ်ထားသော စာတမ်း · Kāyānupassanāniddeso</footer>
+</main>
+<script>
+let sizes={pali:1.12,en:1.04,my:1.0};
+function changeSize(delta){
+  for(const key of Object.keys(sizes)){
+    sizes[key]=Math.max(.78,Math.min(1.65,sizes[key]+delta*.08));
+    document.documentElement.style.setProperty('--'+key+'-size',sizes[key]+'rem');
+  }
+}
+</script>
+</body>
+</html>
